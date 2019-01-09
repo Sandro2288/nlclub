@@ -1,0 +1,46 @@
+mat-card{
+	max-width: 100%;
+	max-height: 300px;
+	margin: 10px;
+	padding-bottom: 30px;
+	box-shadow: 0px 8px 30px #777777 !important;
+	text-decoration: none;
+}
+
+img{
+	object-fit: cover;
+	max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+}
+
+mat-card-content{
+	font-size: 14px;
+}
+
+
+.galleryContainer{
+	display: grid;
+	grid-template-columns: 2fr;
+	padding: 10px;
+}
+
+
+@media (min-width: 600px) {
+	.galleryContainer{
+		grid-template-columns: 2fr 2fr;
+	}
+}
+
+@media (min-width: 960px) {
+	.galleryContainer{
+		grid-template-columns: 2fr 2fr 2fr;
+	}
+}
+
+@media (min-width: 1400px) {
+	.galleryContainer{
+		grid-template-columns: 2fr 2fr 2fr 2fr;
+	}
+}
